@@ -1,0 +1,32 @@
+#top, #bottom {
+	background-color:teal;
+	margin:10px;
+	padding:5px;
+}
+
+div {
+	border:1px solid blue ;
+}
+
+h1,h2 {
+	text-align:center;
+	font-family:Arial,Tahoma;
+	color:indigo;
+}
+
+.member {
+	color:yellow;
+}
+
+table {
+	background-color:grey;
+	border:1px solid black;
+	border-collapse:collapse;	
+}
+th,td {
+	border:1px solid black;
+	margin:10px;
+	padding:5px;
+	text-align:center;
+}
+
