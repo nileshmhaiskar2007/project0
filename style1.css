@@ -1,8 +1,25 @@
+button {
+	background-color:red;
+	width:100px;
+	height:50px;
+}
+
+button:hover {
+	background-color:yellow;
+}
+
+input[type=text] {
+	background-color:pink;
+}
+input[type=number] {
+	background-color:yellow;
+}
+
 h3 {
 	text-align:center;
 	font-family:Arial;
 }
-li {
+ol > li {
 	color:cyan;
 	font-size:18;
 }
