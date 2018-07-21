@@ -8,10 +8,27 @@
 		<div id="top">
 			<h1>Indian Players</h1>
 		</div>
+		<div id="padd">
+			<form>
+				<input name="pname" type="text" placeholder="Player Name" />
+				<input name="password" type="password" placeholder="Password" /><br/>
+				<input name="batsman" type="radio" value="batsman" checked/>Batsman
+				<input type="radio" name="bowler" value="bowler" />Bowler
+				<input type="radio" name="wk" value="wk" />Wicketkeeper<br/>
+				<input list="state">
+				<datalist id="state">
+					<option value="Maharashtra" />
+					<option value="Rajsthan" />
+					<option value="Madhyapradesh" />
+					<option value="Kerala" />
+					<option value="Orissa" />
+					<option value="Bihar" />
+				</datalist>
+			</form>
+		</div>
 		<div id="middle">
 			<h3>Lists all players</h3>
 			<h4>Wanted Players</h4>
-			<ol>
 				<li><a href="http://www.google.com">Ajay Jadeja</a></li>
 				<li><a href="#bottom">Yuvraj Singh</a></li>
 				<li>Mohammad Kaif</li>
