@@ -1,3 +1,15 @@
+@media (min-width:500px) {
+	body {
+		background-color:yellow;
+	}
+}
+
+
+@media(max-width:499px) {
+	body {
+		background-color:grey;
+	}
+}
 button {
 	background-color:red;
 	width:100px;
@@ -20,7 +32,7 @@ h3 {
 	font-family:Arial;
 }
 ol > li {
-	color:cyan;
+	
 	font-size:18;
 }
 #top, #bottom {
